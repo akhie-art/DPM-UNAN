@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --warna2: #9ac8cd;
+  --warna3: #0e46a3;
+  --warna4: #1e0342;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--warna4);
+}
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  position: fixed;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.231);
+  z-index: 99999;
+}
+.logo {
+  width: 30%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  color: white;
+}
+.logo span {
+  color: var(--warna2);
+}
+.logo img {
+  width: 20%;
+}
+nav {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5%;
+  padding: 0% 5%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+nav a:hover {
+  color: var(--warna2);
+}
+#home {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  padding-top: 10%;
+  display: flex;
+}
+.tulisan {
+  width: 50%;
+  height: 100%;
+}
+.konten-tulisan {
+  width: 100%;
+  height: 100%;
+}
+.konten-tulisan h1 {
+  font-size: 4rem;
+  line-height: 70px;
+  color: white;
+}
+.konten-tulisan span {
+  color: var(--warna2);
+}
+.narasi-DPM {
+  overflow: scroll;
+  width: 80%;
+  height: 30%;
+  margin: 5% 0%;
+  margin-bottom: 0%;
+}
+.narasi-DPM p {
+  color: white;
+  font-size: 0.7rem;
+}
+.narasi-DPM span {
+  color: var(--warna2);
+  font-weight: 600;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.tbl-lengkap {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.tbl-lengkap button,
+.tbl-lengkap a {
+  width: 40%;
+  height: 40%;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--warna4);
+  border: none;
+  border-radius: 5px;
+}
+.gambar {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.konten-gambar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.konten-gambar img {
+  width: 90%;
+}
+#service {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  
+}
+.konten-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.jasa {
+  width: 25%;
+  height: 80%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+  margin-left: 5%;
+}
+.gambar-jasa {
+  width: 100%;
+  height: 30%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambar-jasa img {
+  width: 50%;
+}
+.nama-jasa {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.narasi-jasa {
+  width: 100%;
+  height: 30%;
+  padding: 10%;
+  overflow: scroll;
+}
+.narasi-jasa p {
+  font-size: 0.7rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.tbl-jasa {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.tbl-jasa button,
+.tbl-jasa a {
+  width: 30%;
+  height: 40%;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  background-color: greenyellow;
+  color: black;
+}
+#contact{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.konten-footer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.konten-footer i{
+  font-size: 2rem;
+  color: white;
+}
+.bungkus-medsos{
+  width: 20%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
